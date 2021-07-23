@@ -5,15 +5,19 @@
 The exercise consists of creating a site to adopt puppies.
 The site shows the catalog of available puppies, where you can add puppies to your "adoption cart", The catalog of dogs available must be 3 columns.
 When a puppy is adopted, you must move from the adoption page to the adopted puppy page.
+
 ![Main page](https://github.com/casai-org/frontend-exercise/blob/main/backend/images/image-1.png?raw=true)
 
 The page of the adopted dogs is the same, only without the option to adopt the puppy.
+
 ![Adopted page](https://github.com/casai-org/frontend-exercise/blob/main/backend/images/image-3.png?raw=true)
 
 And the "adoption cart" where the dogs selected for adoption are displayed and the user can adopt.
+
 ![Adoption cart](https://github.com/casai-org/frontend-exercise/blob/main/backend/images/image-2.png?raw=true)
 
 Site should show correctly in mobile
+
 ![Mobile site](https://github.com/casai-org/frontend-exercise/blob/main/backend/images/image-4.png?raw=true)
 
 Hints:
