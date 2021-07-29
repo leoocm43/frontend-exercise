@@ -35,7 +35,7 @@ Extras:
 - Optimize the size of the initial site load
 - Maintain the status of the catalog (available and adopted) even when the page is refreshed
 - Reuse code properly
-- Automate actions to send clean commits to the
+- Automate actions to send clean commits to the repository
 - Add properly unit test
 
 Technologies and recommendations
