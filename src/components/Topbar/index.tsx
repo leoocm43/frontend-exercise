@@ -14,10 +14,10 @@ return (
 
 		<NavMenu>
 		<NavLink to='/dogs' activeStyle>
-			About
+			Dogs
 		</NavLink>
 		<NavLink to='/adoption' activeStyle>
-			Events
+			Adoptions
 		</NavLink>
 		</NavMenu>
 		<NavBtn>
