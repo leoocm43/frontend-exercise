@@ -13,15 +13,18 @@ return (
 	<Nav>
 
 		<NavMenu>
-		<NavLink to='/dogs' activeStyle>
-			Dogs
-		</NavLink>
-		<NavLink to='/adoption' activeStyle>
-			Adoptions
-		</NavLink>
+			<NavLink to='/home' activeStyle>
+				Home
+			</NavLink>
+			<NavLink to='/dogs' activeStyle>
+				Dogs
+			</NavLink>
+			<NavLink to='/adoptions' activeStyle>
+				Adoptions
+			</NavLink>
 		</NavMenu>
 		<NavBtn>
-		<NavBtnLink to='/checkout'>Checkout</NavBtnLink>
+			<NavBtnLink to='/checkout'>Checkout</NavBtnLink>
 		</NavBtn>
 	</Nav>
 	</>

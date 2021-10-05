@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Dogs from './views/Dogs'
 import Adoptions from './views/Adoptions'
 import Checkout from './views/Checkout'
+import Home from './views/Home'
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/dogs" exact component={Dogs}></Route>
           <Route path="/adoptions" exact component={Adoptions}></Route>
           <Route path="/checkout" exact component={Checkout}></Route>
+          <Route path="/home" exact component={Home}></Route>
         </Switch>
       </Router>
     </>

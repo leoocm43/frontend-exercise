@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const DogImage = styled.img`
-    width: 100%;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
 `;
 
-export const AdoptionButton = styled.h5`
-    border: solid 1px #4b6584;
+export const RemoveButton = styled.h5`
+    border: solid 1px #eb3b5a;
     border-radius: 5px;
     margin-right: 140px;
-    background-color: #4b6584;
+    background-color: #eb3b5a;
     color: white;
     cursor: pointer;
 `;

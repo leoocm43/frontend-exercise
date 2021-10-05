@@ -6,14 +6,6 @@ export const DogImage = styled.img`
     border-radius: 5px;
 `;
 
-export const AdoptionButton = styled.h5`
-    border: solid 1px #4b6584;
-    border-radius: 5px;
-    margin-right: 140px;
-    background-color: #4b6584;
-    color: white;
-    cursor: pointer;
-`;
 
 export const Title = styled.h5`
     color: black;

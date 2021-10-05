@@ -1,14 +1,12 @@
 import React from 'react'
-import {Title} from './CardElements';
+import { DogImage,AdoptionButton, Title } from './CardElements';
 
-const Card = (props: { title: any; img: any;}) => {
+const Card = (props: { title: any; img: any; id: any; }) => {
     return (
-        <div style={{ margin: "auto", marginBottom:"20px" ,width: "49%", border: " solid 5px #000000"}}>
-            <img width="100% " height="250px " src= {props.img} alt="Dog img"></img>
-            <h5>{props.title}</h5>
-            <div onClick={() => console.log(props.title)} style={{border: "solid 1px #dda7a7", margin:"10px"}}>
-                Adopt Button
-            </div>
+        <div style={{ margin: "auto", marginBottom:"20px", width: "49%", border: " solid 5px #000000"}}>
+            <DogImage src= {props.img} alt="Dog img"></DogImage>
+            <Title>{props.title}</Title>
+            <AdoptionButton onClick={() => console.log(props.id)}>Adopt</AdoptionButton>
         </div>
     )
 }

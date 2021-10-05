@@ -10,14 +10,17 @@ const Dogs = () => {
 
         <>
         <br></br>
+            {dogsIsLoading &&
+                "Loading..."
+            }
             <Row>
                 {
                     dogsData  ? 
-                        dogsData.map((dog: { first_name: any; avatar: any }) => (
+                        dogsData.map((dog: { first_name: any; avatar: any ; id: any}) => (
                             <>
                                 
                                 <Column xs="12" sm="12" md="6" lg="4">
-                                    <Card title={dog.first_name} img={dog.avatar}/>
+                                    <Card title={dog.first_name} img={dog.avatar} id={dog.id}/>
                                 </Column>
                                 
                             </>
