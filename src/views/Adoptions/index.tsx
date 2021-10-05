@@ -19,12 +19,12 @@ const Dogs = () => {
             }
                 {
                     dogsData  ? 
-                        dogsData.map((dog: { first_name: any; avatar: any ;id: any}) => (
+                        dogsData.map((dog: { title: any; url: any ;id: any}) => (
 
                             <>
                                 
                                 <Column xs="12" sm="12" md="6" lg="4">
-                                    <AdoptionCard title={dog.first_name} img={dog.avatar}/>
+                                    <AdoptionCard title={dog.title} img={dog.url}/>
                                 </Column>
                                 
                             </>

@@ -17,11 +17,11 @@ const Checkout = () => {
             <Row>
                 {
                     dogsData  ? 
-                        dogsData.map((dog: { first_name: any; avatar: any ; id: any}) => (
+                        dogsData.map((dog: { title: any; url: any ; id: any}) => (
                             <>
                                 
                                 <Column xs="12" sm="12" md="12" lg="12">
-                                    <CheckoutCard title={dog.first_name} img={dog.avatar} id={dog.id}/>
+                                    <CheckoutCard title={dog.title} img={dog.url} id={dog.id}/>
                                 </Column>
                                 
                             </>
