@@ -4,7 +4,7 @@ import { httpClient } from "../utils/httpClient"
 export const getDogs = async () => {
 
     const result = await httpClient(
-        Endpoints.test,
+        Endpoints.dogs,
         {
             method: 'GET',
         }
